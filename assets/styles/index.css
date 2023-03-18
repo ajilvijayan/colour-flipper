@@ -1,9 +1,37 @@
-.heading {
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(94,94,231,1) 0%, rgba(0,212,255,1) 100%);    
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container > div {
+    margin: 20px;
+    width: 50%;
+}
+
+.left-section {
     text-align: center;
 }
 
+.heading {
+    text-align: center;
+    color: #ffffff;
+    font-size: 72px;
+}
+
 #flipperBox {
+    width: 300px;
     height: 300px;
-    width: 250px;
-    background-color: red;
+    background: red;
+    transform: perspective(20px) rotateY(2deg);
+    margin: 50px;
+    padding: 10px;
+    border: 3px solid #ffffff;
+  
 }
