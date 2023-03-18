@@ -1,6 +1,6 @@
 body {
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(94,94,231,1) 0%, rgba(0,212,255,1) 100%);    
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(94, 94, 231, 1) 0%, rgba(0, 212, 255, 1) 100%);
 }
 
 .container {
@@ -33,5 +33,19 @@ body {
     margin: 50px;
     padding: 10px;
     border: 3px solid #ffffff;
-  
+
+}
+
+#clickButton {
+    border-radius: 4px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(67,71,89,1) 0%, rgba(66,8,162,1) 100%);
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+    padding: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    border: 1px solid #ffffff;
 }
